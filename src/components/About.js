@@ -1,4 +1,3 @@
-// import slpcv from '../assets/slpcv.pdf'
 import React from 'react';
 
 function About() {

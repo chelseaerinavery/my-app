@@ -4,6 +4,7 @@ import './App.css';
 import Social from './components/Social';
 import CurrentDate from './components/CurrentDate';
 import About from './components/About';
+import Projects from './components/Projects';
 import CodingCV from './components/CodingCV';
 import SLPCV from './components/SLPCV';
 import Gallery from './components/Gallery';
@@ -32,6 +33,9 @@ function App() {
         <span role="link" className="Link" onClick={() => clickPage('about')}>
           About
         </span>
+        <span role="link" className="Link" onClick={() => clickPage('projects')}>
+          Projects
+        </span>
         <span role="link" className="Link" onClick={() => clickPage('codingcv')}>
           Coding CV
         </span>
@@ -39,7 +43,7 @@ function App() {
           SLP CV
         </span>
         <span role="link" className="Link" onClick={() => clickPage('gallery')}>
-          Gallery
+          Art
         </span>
       </div>
 
@@ -52,6 +56,8 @@ function App() {
       )}
 
       {currentPage === 'about' && <About />}
+
+      {currentPage === 'projects' && <Projects />}
 
       {currentPage === 'codingcv' && <CodingCV />}
 

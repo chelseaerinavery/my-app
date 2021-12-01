@@ -1,1 +1,1 @@
-My slightly professional, slightly personal landing page.  
+My slightly professional, slightly personal landing page.
