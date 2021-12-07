@@ -38,10 +38,10 @@ function App() {
           Projects
         </span>
         <span role="link" className="Link" onClick={() => clickPage('codingcv')}>
-          Coding CV
+          Resume
         </span>
         <span role="link" className="Link" onClick={() => clickPage('slpcv')}>
-          SLP CV
+          Speech-Language Pathology
         </span>
         <span role="link" className="Link" onClick={() => clickPage('gallery')}>
           Art
