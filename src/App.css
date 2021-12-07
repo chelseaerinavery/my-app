@@ -1,14 +1,12 @@
-footer {
-  margin: 20px;
-}
-
 .Gallery-card > img {
   display: block;
 }
 
 .App {
+  height: 100vh;
   text-align: center;
-  font-family: 'Homemade Apple', cursive;
+  font-family: 'Raleway', sans-serif;
+  background-color: #f2e4d8;
   /* 'Stick No Bills', sans-serif; */
   /* font-family: 'Oswald', sans-serif; */
 }
@@ -27,7 +25,7 @@ footer {
 .App-header {
   /* min-height: 100vh; */
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   align-items: center;
   justify-content: center;
   font-size: calc(10px + 2vmin);
@@ -36,6 +34,7 @@ footer {
 
 .App-link {
   color: #61dafb;
+  padding: 10px;
 }
 
 @keyframes App-logo-spin {
@@ -47,14 +46,19 @@ footer {
   }
 }
 
+.resume {
+  font-family: 'Raleway', sans-serif;
+  text-align: left;
+  padding-left: 60px;
+  padding-right: 60px;
+}
+
 #myname {
-  color: #483d8b;
-  position: absolute;
-  bottom: -30px;
+  color: #8c0303;
 }
 
 #Coming-soon {
-  color: #483d8b;
+  color: #75a3bf;
   margin: 20%;
 }
 
@@ -62,8 +66,11 @@ footer {
   display: flex;
   justify-content: space-evenly;
   padding: 10px;
-  font-family: monospace;
+  font-family: 'Raleway', sans-serif;
   font-size: large;
+  border-bottom: solid;
+  border-color: #bf0404;
+  border-width: thin;
 }
 
 .Link {
@@ -71,7 +78,7 @@ footer {
 }
 
 .Link:hover {
-  color: #483d8b;
+  color: #75a3bf;
 }
 
 .Gallery {
@@ -83,7 +90,6 @@ footer {
 .Gallery-card {
   padding: 20px;
   margin: 20px;
-  background-color: pink;
-  border-radius: 20px;
-  box-shadow: 5px 5px 5px #c192c1;
+  background-color: #75a3bf;
+  box-shadow: 2px 2px 8px #000;
 }

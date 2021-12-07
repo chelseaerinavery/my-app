@@ -26,6 +26,7 @@ function App() {
 
   return (
     <div className="App">
+      <h1 id="myname">Chelsea Avery</h1>
       <div className="Navigation">
         <span role="link" className="Link" onClick={() => clickPage('home')}>
           Home
@@ -51,7 +52,6 @@ function App() {
         <header className="App-header">
           {/* <img src={logo} className="App-logo" alt="logo" /> */}
           <img src={chelseaLogo} className="App-chelseaLogo" alt="chelseaLogo" />
-          <h1 id="myname">Chelsea Avery</h1>
         </header>
       )}
 

@@ -2,7 +2,7 @@ import React from 'react';
 import instagramLogo from '../assets/instagramLogo.png';
 import facebookLogo from '../assets/facebookLogo.png';
 import tiktokLogo from '../assets/tiktokLogo.png';
-import githubLogo from '../assets/githubLogo.jpeg';
+import githubLogo from '../assets/githubLogo.png';
 import linkedinLogo from '../assets/linkedinLogo.png';
 import '../App.css';
 
